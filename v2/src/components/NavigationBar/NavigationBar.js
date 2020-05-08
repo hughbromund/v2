@@ -6,7 +6,7 @@ import Nav from "react-bootstrap/Nav";
 // import Container from "react-bootstrap/Container";
 
 import history from "../../routing/History";
-import { ABOUT_ME, HOME_PATH } from "../../constants/Constants";
+import { ABOUT_ME, HOME_PATH, PROJECTS } from "../../constants/Constants";
 
 export default class NavigationBar extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class NavigationBar extends Component {
       <div>
         <Navbar fixed="top" expand="lg" bg="dark" variant="dark">
           <Navbar.Brand onClick={() => history.push(HOME_PATH)}>
-            Hugh Bromund
+            <strong>Hugh Bromund</strong>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -23,7 +23,10 @@ export default class NavigationBar extends Component {
               <Nav.Link onClick={() => history.push(ABOUT_ME)}>
                 About Me
               </Nav.Link>
-              <Nav.Link>Projects</Nav.Link>
+              <Nav.Link>Experience</Nav.Link>
+              <Nav.Link onClick={() => history.push(PROJECTS)}>
+                Projects
+              </Nav.Link>
               <Nav.Link>Skills</Nav.Link>
             </Nav>
           </Navbar.Collapse>

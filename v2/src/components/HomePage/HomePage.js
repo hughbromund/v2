@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Button from "react-bootstrap/Button";
 import TextLoop from "react-text-loop";
 
 export default class HomePage extends Component {
@@ -12,7 +13,9 @@ export default class HomePage extends Component {
           </span>
           , I'm
         </h4>
-        <h1>Hugh Bromund </h1>
+        <h1>
+          <strong>Hugh Bromund</strong>
+        </h1>
         <h3>
           I{" "}
           <TextLoop>
@@ -21,6 +24,7 @@ export default class HomePage extends Component {
             <span>Hack</span>
           </TextLoop>
         </h3>
+        <Button variant="success">About Me</Button>
       </div>
     );
   }
