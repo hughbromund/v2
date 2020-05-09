@@ -14,7 +14,7 @@ library.add(fab);
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className={classes.container}>
         <div className={classes.navContainer}>
           <NavigationBar />
         </div>

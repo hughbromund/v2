@@ -10,25 +10,14 @@
   padding-top: 75px;
   /*padding-right: 10px;
   padding-left: 10px;
-  */ 
+  */
 }
-
-.darkMode {
-  transition: 0.3s;
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  background: #121212;
-  height: 100vh;
-}
-
-.lightMode {
-  transition: 0.3s;
-  font-family: "Montserrat", sans-serif;
-  color: black;
-  background: white;
-  height: 100vh;
-}
-
 .navContainer {
   /* margin-bottom: 100px; */
+}
+.container {
+  height: 100vh;
+  background-image: url("./assets/background.jpg");
+  background-blend-mode: saturation;
+  background-size: cover;
 }

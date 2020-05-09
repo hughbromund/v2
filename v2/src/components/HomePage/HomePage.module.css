@@ -1,0 +1,17 @@
+.wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container {
+  height: 100vh;
+  background-image: url("../../assets/background.jpg");
+  background-blend-mode: saturation;
+  background-size: cover;
+}
+.title {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.picture {
+  max-width: 10rem;
+}

@@ -1,0 +1,12 @@
+.cards {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.title {
+  max-width: 100rem;
+  margin: 0 auto;
+}
