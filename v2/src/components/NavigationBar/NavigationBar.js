@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import classes from "./NavigationBar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 // import Form from "react-bootstrap/Form";
@@ -13,7 +14,12 @@ export default class NavigationBar extends Component {
   render() {
     return (
       <div>
-        <Navbar fixed="top" expand="md" bg="dark" variant="dark">
+        <Navbar
+          fixed="top"
+          expand="md"
+          variant="dark"
+          className={classes.navbar}
+        >
           <Navbar.Brand onClick={() => history.push(HOME_PATH)}>
             <strong>Hugh Bromund</strong>
           </Navbar.Brand>

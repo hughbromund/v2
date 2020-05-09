@@ -96,7 +96,7 @@ export default class Projects extends Component {
               <Card.Footer>
                 <strong>Completed</strong>{" "}
                 <span style={{ float: "right" }}>
-                  <Badge variant="success">
+                  <Badge variant="secondary">
                     Personal{" "}
                     <span role="img" aria-label="laptop">
                       💻

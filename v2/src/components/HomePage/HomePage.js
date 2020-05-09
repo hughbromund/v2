@@ -45,7 +45,7 @@ export default class HomePage extends Component {
               </TextLoop>
             </h3>
             <br />
-            <Button variant="success">About Me</Button>
+            <Button variant="primary">About Me</Button>
           </Col>
         </Row>
       </div>
