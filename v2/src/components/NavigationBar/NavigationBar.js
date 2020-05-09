@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 // import Form from "react-bootstrap/Form";
 // import Container from "react-bootstrap/Container";
@@ -30,6 +31,22 @@ export default class NavigationBar extends Component {
               <Nav.Link>Skills</Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          <Nav.Link
+            onClick={() => (window.location = "https://github.com/hughbromund")}
+          >
+            <FontAwesomeIcon icon={["fab", "github"]} color="white" size="2x" />
+          </Nav.Link>
+          <Nav.Link
+            onClick={() =>
+              (window.location = "https://www.linkedin.com/in/hughbromund/")
+            }
+          >
+            <FontAwesomeIcon
+              icon={["fab", "linkedin"]}
+              color="white"
+              size="2x"
+            />
+          </Nav.Link>
         </Navbar>
       </div>
     );

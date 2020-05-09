@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import Button from "react-bootstrap/Button";
 import TextLoop from "react-text-loop";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class HomePage extends Component {
   render() {
     return (
       <div>
+        <FontAwesomeIcon icon={["fab", "apple"]} />
         <h4>
           Hi there{" "}
           <span role="img" aria-label="waving hand">
