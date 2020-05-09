@@ -16,7 +16,8 @@
   /* margin-bottom: 100px; */
 }
 .container {
-  height: 100vh;
-  background-color: #2b2e4a;
-  color: #e84545;
+  background-color: #ffe2bc;
+  color: #58b4ae;
+  overflow: auto;
+  min-height: 100vh;
 }

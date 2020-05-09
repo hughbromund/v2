@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 
+import { TEXT_COLOR } from "../../constants/Constants";
+
 import classes from "./Projects.module.css";
 
 import Card from "react-bootstrap/Card";
 import CardColumns from "react-bootstrap/CardDeck";
 import Button from "react-bootstrap/Button";
 import Badge from "react-bootstrap/Badge";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Projects extends Component {
   render() {
@@ -27,14 +31,80 @@ export default class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>FINEX</strong>
+                  <strong>
+                    <strong>FINEX</strong>
+                  </strong>
                 </Card.Title>
                 <Card.Text>
                   A team based projet to build a website that helps track
                   spending and stock information
                 </Card.Text>
                 <hr />
-                <Button variant="primary">Learn More</Button>
+                <Card.Title>
+                  <strong>My Role</strong>
+                </Card.Title>
+                <Card.Text>
+                  For this project, I helped create the initial designs and then
+                  worked on the frontend team to bring those designs to life. I
+                  specifically worked on the frontend design and functionality
+                  of the budgeting feature. Additionally, I took on the task of
+                  hosting the website once it was completed.
+                </Card.Text>
+                <hr />
+                <Card.Title>
+                  <strong>Technologies</strong>
+                </Card.Title>
+                <Card.Text>
+                  <FontAwesomeIcon
+                    icon={["fab", "react"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "js"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "node"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "html5"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "css3-alt"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                </Card.Text>
+                <hr />
+                <Button
+                  variant="primary"
+                  onClick={() => (window.location = "https://www.finex.money")}
+                >
+                  Check It Out!{" "}
+                  <span role="img" aria-label="rocket launch">
+                    🚀
+                  </span>
+                </Button>
+                &nbsp;&nbsp;
+                <span style={{ float: "right" }}>
+                  <a href="https://github.com/hughbromund/FINEX">
+                    <FontAwesomeIcon
+                      icon={["fab", "github"]}
+                      color={{ TEXT_COLOR }}
+                      size="2x"
+                    />
+                  </a>
+                </span>
               </Card.Body>
               <Card.Footer>
                 <strong>Completed</strong>{" "}
@@ -55,7 +125,9 @@ export default class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>StarStats</strong>
+                  <strong>
+                    <strong>StarStats</strong>
+                  </strong>
                 </Card.Title>
                 <Card.Text>
                   An iOS companion app for the popular game BrawlStars.
@@ -63,7 +135,68 @@ export default class Projects extends Component {
                   changes.
                 </Card.Text>
                 <hr />
-                <Button variant="primary">Learn More</Button>
+                <Card.Title>
+                  <strong>My Role</strong>
+                </Card.Title>
+                <Card.Text>
+                  I worked on a number of different components for this project.
+                  My first job was building the backend for our app. I built the
+                  backend using NodeJS and hosted it in Google Cloud. I then
+                  moved on to creating the trophy graphing system and our
+                  persistant data system.
+                </Card.Text>
+                <hr />
+                <Card.Title>
+                  <strong>Technologies</strong>
+                </Card.Title>
+                <Card.Text>
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "swift"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "node"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "sketch"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                </Card.Text>
+                <hr />
+                <Card.Title>
+                  <strong>Awards</strong>
+                </Card.Title>
+                <Card.Text>
+                  <span role="img" aria-label="trophy">
+                    🏆
+                  </span>{" "}
+                  - Best Design - 2020 CodePath National Demo Day
+                </Card.Text>
+                <hr />
+                <Button variant="primary" disabled>
+                  {" "}
+                  Check It Out!{" "}
+                  <span role="img" aria-label="rocket launch">
+                    🚀
+                  </span>
+                </Button>
+                &nbsp;&nbsp;
+                <span style={{ float: "right" }}>
+                  <a href="https://github.com/BrawlStats-Purdue/BrawlStats">
+                    <FontAwesomeIcon
+                      icon={["fab", "github"]}
+                      color={{ TEXT_COLOR }}
+                      size="2x"
+                    />
+                  </a>
+                </span>
               </Card.Body>
               <Card.Footer>
                 <strong>Completed</strong>{" "}
@@ -84,14 +217,92 @@ export default class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>Adventerous Sloth</strong>
+                  <strong>
+                    <strong>Adventerous Sloth</strong>
+                  </strong>
                 </Card.Title>
                 <Card.Text>
-                  A team based projet to build a website that helps track
-                  spending and stock information
+                  A web app that helps create an itinerary based on a simple set
+                  of questions.
                 </Card.Text>
                 <hr />
-                <Button variant="primary">Learn More</Button>
+                <Card.Title>
+                  <strong>My Role</strong>
+                </Card.Title>
+                <Card.Text>
+                  I came up with the initial idea for the website and then
+                  worked on the frontend team. I built the home page and the
+                  results page using React.
+                </Card.Text>
+                <hr />
+                <Card.Title>
+                  <strong>Technologies</strong>
+                </Card.Title>
+                <Card.Text>
+                  <FontAwesomeIcon
+                    icon={["fab", "react"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "js"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "node"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "html5"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "css3-alt"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "tripadvisor"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                </Card.Text>
+                <hr />
+                <Card.Title>
+                  <strong>Awards</strong>
+                </Card.Title>
+                <Card.Text>
+                  <span role="img" aria-label="trophy">
+                    🏆
+                  </span>{" "}
+                  - 3rd Place Overall - Boilermake VII
+                </Card.Text>
+                <hr />
+                <Button variant="primary" disabled>
+                  {" "}
+                  Check It Out!{" "}
+                  <span role="img" aria-label="rocket launch">
+                    🚀
+                  </span>
+                </Button>
+                &nbsp;&nbsp;
+                <span style={{ float: "right" }}>
+                  <a href="https://github.com/hughbromund/AdventurousSloth">
+                    <FontAwesomeIcon
+                      icon={["fab", "github"]}
+                      color={{ TEXT_COLOR }}
+                      size="2x"
+                    />
+                  </a>
+                </span>
               </Card.Body>
               <Card.Footer>
                 <strong>Completed</strong>{" "}

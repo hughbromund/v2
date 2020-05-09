@@ -37,22 +37,14 @@ export default class NavigationBar extends Component {
               <Nav.Link>Skills</Nav.Link>
             </Nav>
 
-            <Nav.Link
-              onClick={() =>
-                (window.location = "https://github.com/hughbromund")
-              }
-            >
+            <Nav.Link href="https://github.com/hughbromund">
               <FontAwesomeIcon
                 icon={["fab", "github"]}
                 color="white"
                 size="2x"
               />
             </Nav.Link>
-            <Nav.Link
-              onClick={() =>
-                (window.location = "https://www.linkedin.com/in/hughbromund/")
-              }
-            >
+            <Nav.Link href="https://www.linkedin.com/in/hughbromund/">
               <FontAwesomeIcon
                 icon={["fab", "linkedin"]}
                 color="white"
