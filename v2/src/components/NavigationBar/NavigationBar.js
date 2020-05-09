@@ -13,7 +13,7 @@ export default class NavigationBar extends Component {
   render() {
     return (
       <div>
-        <Navbar fixed="top" expand="lg" bg="dark" variant="dark">
+        <Navbar fixed="top" expand="md" bg="dark" variant="dark">
           <Navbar.Brand onClick={() => history.push(HOME_PATH)}>
             <strong>Hugh Bromund</strong>
           </Navbar.Brand>
@@ -30,23 +30,30 @@ export default class NavigationBar extends Component {
               </Nav.Link>
               <Nav.Link>Skills</Nav.Link>
             </Nav>
+
+            <Nav.Link
+              onClick={() =>
+                (window.location = "https://github.com/hughbromund")
+              }
+            >
+              <FontAwesomeIcon
+                icon={["fab", "github"]}
+                color="white"
+                size="2x"
+              />
+            </Nav.Link>
+            <Nav.Link
+              onClick={() =>
+                (window.location = "https://www.linkedin.com/in/hughbromund/")
+              }
+            >
+              <FontAwesomeIcon
+                icon={["fab", "linkedin"]}
+                color="white"
+                size="2x"
+              />
+            </Nav.Link>
           </Navbar.Collapse>
-          <Nav.Link
-            onClick={() => (window.location = "https://github.com/hughbromund")}
-          >
-            <FontAwesomeIcon icon={["fab", "github"]} color="white" size="2x" />
-          </Nav.Link>
-          <Nav.Link
-            onClick={() =>
-              (window.location = "https://www.linkedin.com/in/hughbromund/")
-            }
-          >
-            <FontAwesomeIcon
-              icon={["fab", "linkedin"]}
-              color="white"
-              size="2x"
-            />
-          </Nav.Link>
         </Navbar>
       </div>
     );
