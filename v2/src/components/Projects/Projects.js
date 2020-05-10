@@ -36,7 +36,7 @@ export default class Projects extends Component {
                   </strong>
                 </Card.Title>
                 <Card.Text>
-                  A team based projet to build a website that helps track
+                  A team based project to build a website that helps track
                   spending and stock information
                 </Card.Text>
                 <hr />
@@ -87,8 +87,9 @@ export default class Projects extends Component {
                 </Card.Text>
                 <hr />
                 <Button
+                  target="_blank"
+                  href="https://www.finex.money"
                   variant="primary"
-                  onClick={() => (window.location = "https://www.finex.money")}
                 >
                   Check It Out!{" "}
                   <span role="img" aria-label="rocket launch">
@@ -97,7 +98,10 @@ export default class Projects extends Component {
                 </Button>
                 &nbsp;&nbsp;
                 <span style={{ float: "right" }}>
-                  <a href="https://github.com/hughbromund/FINEX">
+                  <a
+                    target="_blank"
+                    href="https://github.com/hughbromund/FINEX"
+                  >
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
                       color={{ TEXT_COLOR }}
@@ -143,7 +147,7 @@ export default class Projects extends Component {
                   My first job was building the backend for our app. I built the
                   backend using NodeJS and hosted it in Google Cloud. I then
                   moved on to creating the trophy graphing system and our
-                  persistant data system.
+                  persistent data system.
                 </Card.Text>
                 <hr />
                 <Card.Title>
@@ -174,10 +178,15 @@ export default class Projects extends Component {
                   <strong>Awards</strong>
                 </Card.Title>
                 <Card.Text>
-                  <span role="img" aria-label="trophy">
-                    🏆
-                  </span>{" "}
-                  - Best Design - 2020 CodePath National Demo Day
+                  <a
+                    target="_blank"
+                    href="https://blog.codepath.org/codepath-hosts-first-national-virtual-demo-day/"
+                  >
+                    <span role="img" aria-label="trophy">
+                      🏆
+                    </span>{" "}
+                    - Best Design - 2020 CodePath National Demo Day
+                  </a>
                 </Card.Text>
                 <hr />
                 <Button variant="primary" disabled>
@@ -189,7 +198,10 @@ export default class Projects extends Component {
                 </Button>
                 &nbsp;&nbsp;
                 <span style={{ float: "right" }}>
-                  <a href="https://github.com/BrawlStats-Purdue/BrawlStats">
+                  <a
+                    target="_blank"
+                    href="https://github.com/BrawlStats-Purdue/BrawlStats"
+                  >
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
                       color={{ TEXT_COLOR }}
@@ -218,7 +230,7 @@ export default class Projects extends Component {
               <Card.Body>
                 <Card.Title>
                   <strong>
-                    <strong>Adventerous Sloth</strong>
+                    <strong>Adventurous Sloth</strong>
                   </strong>
                 </Card.Title>
                 <Card.Text>
@@ -280,10 +292,15 @@ export default class Projects extends Component {
                   <strong>Awards</strong>
                 </Card.Title>
                 <Card.Text>
-                  <span role="img" aria-label="trophy">
-                    🏆
-                  </span>{" "}
-                  - 3rd Place Overall - Boilermake VII
+                  <a
+                    target="_blank"
+                    href="https://devpost.com/software/adventurous-sloth"
+                  >
+                    <span role="img" aria-label="trophy">
+                      🏆
+                    </span>{" "}
+                    - 3rd Place Overall - Boilermake VII
+                  </a>
                 </Card.Text>
                 <hr />
                 <Button variant="primary" disabled>
@@ -295,7 +312,10 @@ export default class Projects extends Component {
                 </Button>
                 &nbsp;&nbsp;
                 <span style={{ float: "right" }}>
-                  <a href="https://github.com/hughbromund/AdventurousSloth">
+                  <a
+                    target="_blank"
+                    href="https://github.com/hughbromund/AdventurousSloth"
+                  >
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
                       color={{ TEXT_COLOR }}
