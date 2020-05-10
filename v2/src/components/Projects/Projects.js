@@ -84,6 +84,12 @@ export default class Projects extends Component {
                     color={{ TEXT_COLOR }}
                     size="2x"
                   />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "npm"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
                 </Card.Text>
                 <hr />
                 <Button
@@ -283,6 +289,12 @@ export default class Projects extends Component {
                   &nbsp;&nbsp;
                   <FontAwesomeIcon
                     icon={["fab", "tripadvisor"]}
+                    color={{ TEXT_COLOR }}
+                    size="2x"
+                  />
+                  &nbsp;&nbsp;
+                  <FontAwesomeIcon
+                    icon={["fab", "npm"]}
                     color={{ TEXT_COLOR }}
                     size="2x"
                   />

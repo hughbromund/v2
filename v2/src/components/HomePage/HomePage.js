@@ -25,13 +25,13 @@ export default class HomePage extends Component {
             </span>
           </Col>
           <Col sm>
-            <h4>
+            <h3>
               Hi there{" "}
               <span role="img" aria-label="waving hand">
                 👋
               </span>
               , I'm
-            </h4>
+            </h3>
             <h1>
               <strong>Hugh Bromund</strong>
             </h1>
@@ -44,7 +44,14 @@ export default class HomePage extends Component {
                 <span>teach programming</span>
               </TextLoop>
             </h3>
-            <br />
+            <p style={{ "max-width": "30rem" }}>
+              I'm a full-time student studying Computer Science at Purdue
+              University. I have a passion for all things Computer Science. In
+              my free time I am a teaching assistant for a{" "}
+              <i>Fundamentals of C</i> programming class. I am also a member of
+              the <i>Purdue Autonomous Robotics Club</i> where I am working to
+              create fully autonomous drones and cars.
+            </p>
             <Button variant="primary">About Me</Button>
           </Col>
         </Row>
