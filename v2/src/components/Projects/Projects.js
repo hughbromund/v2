@@ -94,6 +94,7 @@ export default class Projects extends Component {
                 <hr />
                 <Button
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.finex.money"
                   variant="primary"
                 >
@@ -106,6 +107,7 @@ export default class Projects extends Component {
                 <span style={{ float: "right" }}>
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://github.com/hughbromund/FINEX"
                   >
                     <FontAwesomeIcon
@@ -186,6 +188,7 @@ export default class Projects extends Component {
                 <Card.Text>
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://blog.codepath.org/codepath-hosts-first-national-virtual-demo-day/"
                   >
                     <span role="img" aria-label="trophy">
@@ -206,6 +209,7 @@ export default class Projects extends Component {
                 <span style={{ float: "right" }}>
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://github.com/BrawlStats-Purdue/BrawlStats"
                   >
                     <FontAwesomeIcon
@@ -306,6 +310,7 @@ export default class Projects extends Component {
                 <Card.Text>
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://devpost.com/software/adventurous-sloth"
                   >
                     <span role="img" aria-label="trophy">
@@ -315,7 +320,12 @@ export default class Projects extends Component {
                   </a>
                 </Card.Text>
                 <hr />
-                <Button variant="primary" disabled>
+                <Button
+                  variant="primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://adventurous-sloth-1.ue.r.appspot.com/"
+                >
                   {" "}
                   Check It Out!{" "}
                   <span role="img" aria-label="rocket launch">
@@ -326,6 +336,7 @@ export default class Projects extends Component {
                 <span style={{ float: "right" }}>
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://github.com/hughbromund/AdventurousSloth"
                   >
                     <FontAwesomeIcon
