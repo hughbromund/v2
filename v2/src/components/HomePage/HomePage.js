@@ -37,12 +37,14 @@ export default class HomePage extends Component {
             </h1>
             <h3>
               I{" "}
-              <TextLoop>
-                <span>build awesome websites</span>
-                <span>go to school at Purdue University</span>
-                <span>compete at hackathons</span>
-                <span>teach programming</span>
-              </TextLoop>
+              <TextLoop
+                children={[
+                  "build awesome websites",
+                  "go to school at Purdue University",
+                  "compete at hackathons",
+                  "teach programming",
+                ]}
+              ></TextLoop>
             </h3>
             <p style={{ "max-width": "30rem" }}>
               I'm a full-time student studying Computer Science at Purdue

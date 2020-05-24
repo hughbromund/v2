@@ -1,13 +1,13 @@
-.cards {
-  max-width: 100rem;
-  margin: 0 auto;
-}
 .wrapper {
   padding-left: 10px;
   padding-right: 10px;
   min-height: 100vh;
 }
 .title {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+.inner {
   max-width: 100rem;
   margin: 0 auto;
 }

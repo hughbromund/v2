@@ -19,9 +19,6 @@ export default class Projects extends Component {
           <strong>Personal & School Projects</strong>
           <hr />
         </h1>
-        <a href="https://www.linkedin.com/in/hughbromund/">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
         <div className={classes.cards}>
           <CardColumns>
             <Card>

@@ -5,6 +5,9 @@ import "./App.scss";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 // import logo from './logo.svg';
 import Routes from "./routing/Routes";
+import HomePage from "./components/HomePage/HomePage";
+import Projects from "./components/Projects/Projects";
+import AboutMe from "./components/AboutMe/AboutMe";
 // import { render } from "@testing-library/react";
 
 // Initialization of Fontawesome Icons
@@ -22,7 +25,9 @@ class App extends Component {
           <NavigationBar />
         </div>
         <div className={classes.bodyDiv}>
-          <Routes />
+          <HomePage />
+          <AboutMe />
+          <Projects />
         </div>
       </div>
     );

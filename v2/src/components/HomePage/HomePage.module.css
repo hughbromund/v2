@@ -1,9 +1,9 @@
 .wrapper {
   padding-left: 10px;
   padding-right: 10px;
+  min-height: 100vh;
 }
 .container {
-  height: 100vh;
   background-image: url("../../assets/background.jpg");
   background-blend-mode: saturation;
   background-size: cover;
