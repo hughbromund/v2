@@ -116,7 +116,12 @@ export default class Projects extends Component {
                 </span>
               </Card.Body>
               <Card.Footer>
-                <strong>Completed</strong>{" "}
+                <strong>
+                  Completed{" "}
+                  <span role="img" aria-label="check-mark">
+                    ✅
+                  </span>
+                </strong>{" "}
                 <span style={{ float: "right" }}>
                   <Badge variant="primary">
                     School{" "}
@@ -218,7 +223,12 @@ export default class Projects extends Component {
                 </span>
               </Card.Body>
               <Card.Footer>
-                <strong>Completed</strong>{" "}
+                <strong>
+                  Completed{" "}
+                  <span role="img" aria-label="check-mark">
+                    ✅
+                  </span>
+                </strong>
                 <span style={{ float: "right" }}>
                   <Badge variant="primary">
                     School{" "}
@@ -345,7 +355,12 @@ export default class Projects extends Component {
                 </span>
               </Card.Body>
               <Card.Footer>
-                <strong>Completed</strong>{" "}
+                <strong>
+                  Completed{" "}
+                  <span role="img" aria-label="check-mark">
+                    ✅
+                  </span>
+                </strong>
                 <span style={{ float: "right" }}>
                   <Badge variant="secondary">
                     Personal{" "}

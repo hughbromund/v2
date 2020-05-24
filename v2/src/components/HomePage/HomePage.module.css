@@ -1,7 +1,7 @@
 .wrapper {
   padding-left: 10px;
   padding-right: 10px;
-  min-height: 100vh;
+  min-height: 75vh;
 }
 .container {
   background-image: url("../../assets/background.jpg");

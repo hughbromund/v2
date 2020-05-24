@@ -14,6 +14,9 @@ export default class AboutMe extends Component {
           <h2>
             <strong>
               <i>Education</i>
+              <span role="img" aria-label="pencil">
+                ✏️
+              </span>
             </strong>
           </h2>
           <h3>
@@ -47,112 +50,119 @@ export default class AboutMe extends Component {
               </ul>
             </p>
           </div>
-          <h2>
-            <strong>
-              <i>Experience</i>
-            </strong>
-          </h2>
-          <h3>
-            <strong>Summer Intern</strong> // <i>LincLogix</i>
-          </h3>
-          <div>
-            <span style={{ float: "right" }}>
-              <strong>May 2020 - Present</strong>
-            </span>
-          </div>
-          <div>
-            <h4>Indianapolis, IN</h4>
-            <p>
-              I am working with the engineering team at LincLogix during the
-              2020 summer.
-              <br />
-              Responsibilities:
-              <ul>
-                <li>
-                  Create program that combines data about clients from multiple
-                  sources
-                </li>
-                <li>
-                  Create web-based interface for compiling client account data
-                </li>
-              </ul>
-            </p>
-          </div>
-          <h3>
-            <strong>Teaching Assistant</strong> // <i>Purdue University</i>
-          </h3>
-          <div>
-            <span style={{ float: "right" }}>
-              <strong>January 2020 - May 2020</strong>
-            </span>
-          </div>
-          <div>
-            <h4>West Lafayette, IN</h4>
-            <p>
-              I am a Teaching Assistant for the Fundamentals of C course at
-              Purdue University
-              <br />
-              Responsibilities:
-              <ul>
-                <li>
-                  Work with students one-on-one to help them with all aspects of
-                  the class
-                </li>
-                <li>Grade Code-Standard for student homework submissions</li>
-              </ul>
-            </p>
-          </div>
-          <h3>
-            <strong>Lead Instructor</strong> // <i>iD Tech Camps</i>
-          </h3>
-          <div>
-            <span style={{ float: "right" }}>
-              <strong>May 2019 - July 2019</strong>
-            </span>
-          </div>
-          <div>
-            <h4>West Lafayette, IN</h4>
-            <p>
-              I am the Lead Instructor for iD Camps during the 2019 summer. I
-              worked at Purdue University and University of Alabama Birmingham
-              <br />
-              Responsibilities:
-              <ul>
-                <li>
-                  Teach high quality classes on Machine Learning, Game Design,
-                  Java, and Python
-                </li>
-                <li>Provide a safe environment for up to 50 students a week</li>
-                <li>
-                  Monitor Progress of students and make sure every student
-                  learned the curriculum
-                </li>
-              </ul>
-            </p>
-          </div>
-          <h3>
-            <strong>IT Summer Intern</strong> //{" "}
-            <i>Brebeuf Jesuit Preparatory School</i>
-          </h3>
-          <div>
-            <span style={{ float: "right" }}>
-              <strong>May 2016 - August 2017</strong>
-            </span>
-          </div>
-          <div>
-            <h4>Indianapolis, IN</h4>
-            <p>
-              I am the summer intern for my high school's IT department
-              <br />
-              Responsibilities:
-              <ul>
-                <li>
-                  Help teachers setup and use new technology in the school
-                </li>
-                <li>Run new CAT6 Ethernet cables throughout the building</li>
-                <li>Setup and maintain the Brebeuf Jesuit Maker Space</li>
-              </ul>
-            </p>
+          <div id="experience">
+            <h2>
+              <strong>
+                <i>Experience </i>
+                <span role="img" aria-label="Necktie">
+                  👔
+                </span>
+              </strong>
+            </h2>
+            <h3>
+              <strong>Summer Intern</strong> // <i>LincLogix</i>
+            </h3>
+            <div>
+              <span style={{ float: "right" }}>
+                <strong>May 2020 - Present</strong>
+              </span>
+            </div>
+            <div>
+              <h4>Indianapolis, IN</h4>
+              <p>
+                I am working with the engineering team at LincLogix during the
+                2020 summer.
+                <br />
+                Responsibilities:
+                <ul>
+                  <li>
+                    Create program that combines data about clients from
+                    multiple sources
+                  </li>
+                  <li>
+                    Create web-based interface for compiling client account data
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <h3>
+              <strong>Teaching Assistant</strong> // <i>Purdue University</i>
+            </h3>
+            <div>
+              <span style={{ float: "right" }}>
+                <strong>January 2020 - May 2020</strong>
+              </span>
+            </div>
+            <div>
+              <h4>West Lafayette, IN</h4>
+              <p>
+                I am a Teaching Assistant for the Fundamentals of C course at
+                Purdue University
+                <br />
+                Responsibilities:
+                <ul>
+                  <li>
+                    Work with students one-on-one to help them with all aspects
+                    of the class
+                  </li>
+                  <li>Grade Code-Standard for student homework submissions</li>
+                </ul>
+              </p>
+            </div>
+            <h3>
+              <strong>Lead Instructor</strong> // <i>iD Tech Camps</i>
+            </h3>
+            <div>
+              <span style={{ float: "right" }}>
+                <strong>May 2019 - July 2019</strong>
+              </span>
+            </div>
+            <div>
+              <h4>West Lafayette, IN</h4>
+              <p>
+                I am the Lead Instructor for iD Camps during the 2019 summer. I
+                worked at Purdue University and University of Alabama Birmingham
+                <br />
+                Responsibilities:
+                <ul>
+                  <li>
+                    Teach high quality classes on Machine Learning, Game Design,
+                    Java, and Python
+                  </li>
+                  <li>
+                    Provide a safe environment for up to 50 students a week
+                  </li>
+                  <li>
+                    Monitor Progress of students and make sure every student
+                    learned the curriculum
+                  </li>
+                </ul>
+              </p>
+            </div>
+            <h3>
+              <strong>IT Summer Intern</strong> //{" "}
+              <i>Brebeuf Jesuit Preparatory School</i>
+            </h3>
+            <div>
+              <span style={{ float: "right" }}>
+                <strong>May 2016 - August 2017</strong>
+              </span>
+            </div>
+            <div>
+              <h4>Indianapolis, IN</h4>
+              <p>
+                I am the summer intern for my high school's IT department
+                <br />
+                Responsibilities:
+                <ul>
+                  <li>
+                    Help teachers setup and use new technology in the school
+                  </li>
+                  <li>Run new CAT6 Ethernet cables throughout the building</li>
+                  <li>Setup and maintain the Brebeuf Jesuit Maker Space</li>
+                </ul>
+              </p>
+            </div>
           </div>
         </div>
       </div>

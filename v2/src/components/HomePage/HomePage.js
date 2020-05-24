@@ -4,6 +4,7 @@ import TextLoop from "react-text-loop";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Link, animateScroll as scroll } from "react-scroll";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import classes from "./HomePage.module.css";
@@ -54,7 +55,18 @@ export default class HomePage extends Component {
               the <i>Purdue Autonomous Robotics Club</i> where I am working to
               create fully autonomous drones and cars.
             </p>
-            <Button variant="primary">About Me</Button>
+            <Button variant="primary">
+              <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                About Me
+              </Link>
+            </Button>
           </Col>
         </Row>
       </div>
