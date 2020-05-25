@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.a50cf2ae.chunk.css",
-    "main.js": "/static/js/main.72ca33e2.chunk.js",
-    "main.js.map": "/static/js/main.72ca33e2.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.58c4d41b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.58c4d41b.js.map",
-    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
-    "static/js/2.7cd8c4d4.chunk.js": "/static/js/2.7cd8c4d4.chunk.js",
-    "static/js/2.7cd8c4d4.chunk.js.map": "/static/js/2.7cd8c4d4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.85e96acbd70a0b55ecd2ccf233ecbf43.js": "/precache-manifest.85e96acbd70a0b55ecd2ccf233ecbf43.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
-    "static/css/main.a50cf2ae.chunk.css.map": "/static/css/main.a50cf2ae.chunk.css.map",
-    "static/js/2.7cd8c4d4.chunk.js.LICENSE.txt": "/static/js/2.7cd8c4d4.chunk.js.LICENSE.txt",
-    "static/media/HomePage.module.css": "/static/media/background.8469af58.jpg",
-    "static/media/finex_logo.jpg": "/static/media/finex_logo.20f5f96d.jpg",
-    "static/media/hugh.JPG": "/static/media/hugh.a9098b59.JPG",
-    "static/media/sloth_logo.jpg": "/static/media/sloth_logo.7424a966.jpg",
-    "static/media/starstats.png": "/static/media/starstats.82073242.png"
+    "main.css": "/v2/static/css/main.a721adbb.chunk.css",
+    "main.js": "/v2/static/js/main.ca7c2cbf.chunk.js",
+    "main.js.map": "/v2/static/js/main.ca7c2cbf.chunk.js.map",
+    "runtime-main.js": "/v2/static/js/runtime-main.ca0eaea5.js",
+    "runtime-main.js.map": "/v2/static/js/runtime-main.ca0eaea5.js.map",
+    "static/css/2.de424728.chunk.css": "/v2/static/css/2.de424728.chunk.css",
+    "static/js/2.7cd8c4d4.chunk.js": "/v2/static/js/2.7cd8c4d4.chunk.js",
+    "static/js/2.7cd8c4d4.chunk.js.map": "/v2/static/js/2.7cd8c4d4.chunk.js.map",
+    "index.html": "/v2/index.html",
+    "precache-manifest.bbad31ac071c71b2453322487f029ab4.js": "/v2/precache-manifest.bbad31ac071c71b2453322487f029ab4.js",
+    "service-worker.js": "/v2/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/v2/static/css/2.de424728.chunk.css.map",
+    "static/css/main.a721adbb.chunk.css.map": "/v2/static/css/main.a721adbb.chunk.css.map",
+    "static/js/2.7cd8c4d4.chunk.js.LICENSE.txt": "/v2/static/js/2.7cd8c4d4.chunk.js.LICENSE.txt",
+    "static/media/HomePage.module.css": "/v2/static/media/background.8469af58.jpg",
+    "static/media/finex_logo.jpg": "/v2/static/media/finex_logo.20f5f96d.jpg",
+    "static/media/hugh.JPG": "/v2/static/media/hugh.a9098b59.JPG",
+    "static/media/sloth_logo.jpg": "/v2/static/media/sloth_logo.7424a966.jpg",
+    "static/media/starstats.png": "/v2/static/media/starstats.82073242.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.58c4d41b.js",
+    "static/js/runtime-main.ca0eaea5.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.7cd8c4d4.chunk.js",
-    "static/css/main.a50cf2ae.chunk.css",
-    "static/js/main.72ca33e2.chunk.js"
+    "static/css/main.a721adbb.chunk.css",
+    "static/js/main.ca7c2cbf.chunk.js"
   ]
 }
